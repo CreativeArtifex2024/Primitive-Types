@@ -48,3 +48,25 @@ first = "Ahmed"
 last = "Ziaus Salam"
 full = first + "" + last
 print(full)
+
+first = "Ahmed"
+last = "Ziaus Salam"
+full = f"{first} {last}"
+print(full)
+
+first = "Ahmed"
+last = "Ziaus Salam"
+full = f"{len(first)} {2+2}"
+print(full)
+
+# strings method
+course = "Python Programming"
+print(course.upper())
+print(course)
+
+course = " python programming"
+print(course.lower())
+print(course.title())
+print(course.strip())
+print(course.find("pro"))
+print(course.replace("p", "j"))
