@@ -41,3 +41,10 @@ print("Python \"Programming")
 print("Python \'Programming")
 print("Python \\Programming")
 print("Python \nProgramming")
+
+
+# Formatted Strings
+first = "Ahmed"
+last = "Ziaus Salam"
+full = first + "" + last
+print(full)
