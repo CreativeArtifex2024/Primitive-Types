@@ -28,3 +28,16 @@ print(course_name[-1])
 print(course_name[1])
 print(course_name[0:3])
 print(course_name[0:4])
+
+print(course_name[:3])
+
+# Escape Sequences
+# \"
+# \'
+# \\
+# \n
+
+print("Python \"Programming")
+print("Python \'Programming")
+print("Python \\Programming")
+print("Python \nProgramming")
