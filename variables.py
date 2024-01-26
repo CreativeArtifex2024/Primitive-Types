@@ -19,3 +19,11 @@ x = 'John'
 a = 4
 A = "Sally"
 # A will not overwrite a
+
+course_name = "Python Programming"
+print(len(course_name))
+print(course_name[0])
+print(course_name[-1])
+print(course_name[1])
+print(course_name[0:3])
+print(course_name[0:4])
