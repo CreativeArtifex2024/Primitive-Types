@@ -104,3 +104,13 @@ print(math.asin(0.22))
 x = input("x: ")
 y = int(x) + 1
 print(f"x: {x}, y: {y}")
+
+# Falsy value of python
+# 0
+# ""
+# None
+
+bool(0)  # False
+bool(1)  # True
+bool(-1)  # True
+bool("")  # False
