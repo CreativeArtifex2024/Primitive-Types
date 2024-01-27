@@ -98,3 +98,9 @@ import math  # math module
 
 print(math.ceil(2.2))
 print(math.asin(0.22))
+
+
+# Type Conversion
+x = input("x: ")
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
